@@ -4,6 +4,14 @@ Created by [ng-david](https://github.com/ng-david)
 
 ---
 
+### Updating Website Title and Description
+
+1. Open `/_config.yml`
+
+2. Change text next to `title:` and/or `description:`
+
+---
+
 ### Updating Website Colors
 
 1. Open `/_sass/_variables.scss`
@@ -36,7 +44,7 @@ Created by [ng-david](https://github.com/ng-david)
 
 2. Add your new image to `/img/`
 
-3. Update the src property of the <img> tag under `<!-- CHANGE PROFILE IMAGE HERE -->` to point to that image
+3. Update the src property of the img tag under `<!-- CHANGE PROFILE IMAGE HERE -->` to point to that image
 
 ---
 
