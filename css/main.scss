@@ -14,32 +14,35 @@ article.navbar-wrapper {
 }
 
 article.content-wrapper {
-  position: absolute;
-  left: 30%;
-  top: 0;
-  overflow-y: auto;
-  width: 70%;
-  height: 100vh;
+  // position: absolute;
+  // left: 30%;
+  // top: 0;
+  // overflow-y: auto;
+  // width: 70%;
+  // height: 100vh;
 }
 
 article.nav {
-  height: 100vh;
+  min-height: 100vh;
+  height: 100%;
   width: 100%;
-  section.color-bar {
-    background-color: $brand-color;
-    width: $color-bar-width;
-    height: 100%;
-    display: block;
-    position: absolute;
-    left: 0;
-  }
+  // section.color-bar {
+  //   background-color: $brand-color;
+  //   width: $color-bar-width;
+  //   height: 100%;
+  //   display: block;
+  //   position: absolute;
+  //   left: 0;
+  // }
   section.content {
-    padding-left: $color-bar-width;
+    // padding-left: $color-bar-width;
+    border-left: $color-bar-width solid $brand-color;
     text-align: center;
     width: 100%;
     display: flex;
     justify-content: center;
     div.blurb {
+      position: fixed;
       margin-top: 16rem;
       h1 {
         margin-bottom: 1rem;
@@ -72,13 +75,12 @@ article.nav {
   }
   @media (max-width: 991.99px) {
     border-top: 2rem solid $brand-color;
+    min-height: 0rem;
     height: 100%;
-    section.color-bar {
-      width: 0;
-    }
     section.content {
-      padding-left: 0;
+      border-left: none;
       div.blurb {
+        position: static;
         margin-top: 8rem;
       }
     }
@@ -97,7 +99,14 @@ article.home {
   background-image: url('/img/emily1.jpg');
   background-size: cover;
   height: 100%;
+  padding: 0;
+  margin-right: -15px;
   background-position: right bottom;
+  @media (max-width: 991.99px) {
+    margin-left: -15px;
+    margin-top: 8rem;
+    height: 48rem;
+  }
 }
 
 article.about {
