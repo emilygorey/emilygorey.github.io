@@ -26,7 +26,17 @@ Created by [ng-david](https://github.com/ng-david)
 
 ### Updating About
 
-1. Edit the text in the file `/about.html`
+1. Open the file `/about.html`.
+
+#### Updating Text
+
+2a. Simple update the text under `<!-- CHANGE TEXT HERE -->`
+
+#### Updating Image
+
+2b. Add your new image to `/img/`
+
+3b. Update the src property of the <img> tag under `<!-- CHANGE PROFILE IMAGE HERE -->` to point to that image
 
 ---
 
