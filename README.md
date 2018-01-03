@@ -1,6 +1,6 @@
 # Emily's Personal Website
 
-Written by [ng-david](https://github.com/ng-david)
+Developed and documented by [ng-david](https://github.com/ng-david)
 
 ## Updating Website Colors
 
