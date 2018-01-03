@@ -11,7 +11,7 @@ optional_top_banner_img: optional_top_banner.jpg
 
 optional_bottom_banner_img:
 
-optional_gallery_img_list: ['image1.jpg', 'image2.jpg', 'image3.jpg', 'image4.jpg', 'image5.jpg', 'image6.jpg']
+optional_gallery_img_list: ['image1.jpg', 'image2.jpg', 'image3.jpg', 'image5.jpg', 'image6.jpg', 'image2.jpg', 'image3.jpg',]
 ---
 
 <!-- BELOW HERE IS WHERE YOUR POST'S BODY WILL GO -->

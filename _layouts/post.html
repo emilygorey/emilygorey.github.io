@@ -26,7 +26,9 @@
             </div>
             <div class="gallery">
                 {% for image_url in page.optional_gallery_img_list %}
+                <a href="#" data-featherlight="{{ site.url }}/blog/img/{{ image_url }}">
                   <img src="{{ site.url }}/blog/img/{{ image_url }}" alt="">
+                </a>
                 {% endfor %}
             </div>
 

@@ -284,7 +284,11 @@ article.blog {
     img {
       width: 100%;
       height: auto;
+      // transition: ease opacity .3s;
       margin-bottom: 15px;
+      &:hover {
+        opacity: .8;
+      }
     }
     @media (max-width: 991.99px) {
       -webkit-column-count: 2;
@@ -312,7 +316,11 @@ article.portfolio {
     img {
       width: 100%;
       height: auto;
+      // transition: ease all .3s;
       margin-bottom: 15px;
+      &:hover {
+        opacity: .8;
+      }
     }
     @media (max-width: 991.99px) {
       -webkit-column-count: 2;
