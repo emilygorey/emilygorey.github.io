@@ -3,5 +3,27 @@ layout: default
 title: Emily Gorey
 contact_active: active
 ---
-<h1>I am content!</h1>
-<h2>HARHAHRAR</h2>
+
+
+
+<article class="contact">
+  <section class="container">
+    <h1>Let's Chat</h1>
+    <div class="row">
+      <div class="col-lg-8 col-md-12">
+        <form class="contact-form" method="POST" action="http://formspree.io/dng5@umd.edu">
+          <label>Name:</label>
+          <input type="text" required name="name" value="" placeholder="John Doe">
+          <br>
+          <label>Email:</label>
+          <input type="email" required name="email" placeholder="john@email.com">
+          <br>
+          <label>Message:</label>
+          <textarea rows="10" required name="message" placeholder="A message..."></textarea>
+          <br>
+          <button class="btn btn-primary" type="submit">Send Message &rarr;</button>
+        </form>
+      </div>
+    </div>
+  </section>
+</article>

@@ -97,18 +97,99 @@ article.about {
   }
 }
 
+article.contact {
+  @extend .sub-page;
+  h1 {
+    margin-bottom: 4rem;
+  }
+  form.contact-form {
+    label {
+      display: block;
+      // font-weight: bold;
+      text-transform: lowercase;
+    }
+    input, textarea {
+      width: 100%;
+      margin-bottom: 2rem;
+      padding: .6rem;
+      border: none;
+      transition: ease border .5s;
+      border: 2px solid $brand-color;
+      &:focus, &:hover {
+        outline: none;
+        box-shadow: none;
+        border: 2px solid black;
+      }
+    }
+    .btn-primary {
+      width: 100%;
+      transition: ease all .3s;
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 1.6rem;
+      border-radius: 0;
+      padding: 1rem;
+      border: none;
+      background-color: $brand-color-dark;
+      // border: 2px solid $brand-color;
+      color: white;
+      text-transform: lowercase;
+      &:hover, &:focus {
+        outline: none;
+        border: none;
+        box-shadow: none;
+        background-color: black;
+      }
+    }
+    textarea {
+      width: 100%;
+    }
+  }
+}
+
 article.blog {
   @extend .sub-page;
   section.post {
-    margin-bottom: 4rem;
-    .left {
+    margin-bottom: 8rem;
+    .read-more {
+      // font-weight: bold;
+      color: $brand-color-dark;
+    }
+    a {
+      .date {
+        font-weight: bold;
+        margin-bottom: 2.5rem;
+      }
       img {
+        width: 100%;
         max-width: 100%;
       }
+      h1 {
+        color: black;
+        margin-bottom: .5rem;
+      }
+      p {
+        transition: ease all .3s;
+        color: $font-grey;
+      }
+      .arrow {
+        color: black;
+        transition: ease all .5s;
+        opacity: 0;
+        position: relative;
+        left: -6px;
+      }
     }
-    .right {
-      h1, p {
-        margin-bottom: 2rem;
+    a:hover {
+      p {
+        // color: black;
+      }
+      .read-more {
+        color: black;
+        .arrow {
+          opacity: 1;
+          left: 2px;
+        }
       }
     }
   }
@@ -118,6 +199,9 @@ $google-drive-bg-color: #d1d1d1;
 article.resume {
   @extend .sub-page;
   height: 100%;
+  .container {
+    height: 100%;
+  }
   iframe {
     border: 2px solid $google-drive-bg-color;
   }
