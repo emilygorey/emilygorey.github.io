@@ -2,12 +2,16 @@
 <html lang="en">
   {% include _head.html %}
   <body>
-    <article class="navbar-wrapper">
-      {% include _navbar.html %}
-    </article>
-    <article class="content-wrapper">
-      {{ content }}
-    </article>
+    <div class="container-fluid">
+      <div class="row">
+        <article class="col-lg-4 navbar-wrapper">
+          {% include _navbar.html %}
+        </article>
+        <article class="col-lg-8">
+          {{ content }}
+        </article>
+      </div>
+    </div>
     {% include _footer.html %}
     {% include _scripts.html %}
   </body>
