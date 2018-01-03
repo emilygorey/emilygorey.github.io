@@ -2,13 +2,13 @@
 
 Created by [ng-david](https://github.com/ng-david)
 
-## Updating Website Colors
+### Updating Website Colors
 
 1. Open `/_sass/_variables.scss`
 
 2. Edit the hex color values for `$brand-color` and `$brand-color-dark`
 
-## Updating Home Image
+### Updating Home Image
 
 1. Put your new image in the folder `/img/`
 
@@ -18,11 +18,11 @@ Created by [ng-david](https://github.com/ng-david)
 
 4. Replace the `<arbitrary_image_name>.jpg` with the name of your new image.
 
-## Updating About
+### Updating About
 
 1. Edit the text in the file `/about.html`
 
-## Updating Resume
+### Updating Resume
 
 1. Upload your resume with **public** access on Google Drive
 
@@ -30,11 +30,11 @@ Created by [ng-david](https://github.com/ng-david)
 
 3. Update the <iframe> tag in `/resume.html` with your newly generated one
 
-## Update Portfolio
+### Update Portfolio
 
 TODO: make portfolio have a separate image folder
 
-## Writing a New Blog Post
+### Writing a New Blog Post
 
 1. Create a new file in the directory `/blog/_posts/<FILENAME>`. The new file must be named in this standard format: `2016-07-26-name-of-your-post.md`
 
@@ -46,7 +46,7 @@ TODO: make portfolio have a separate image folder
 
 DAVID TODO: Make better instructions for this...
 
-## Update Contact Email
+### Update Contact Email
 
 1. Open `/contact.html`
 
@@ -56,7 +56,7 @@ DAVID TODO: Make better instructions for this...
 
 4. Try sending a test message to yourself
 
-## For Local Development Purposes:
+### For Local Development Purposes:
 
 1. Run `$ bundle exec jekyll serve` to serve the website locally at port `4000`
 
