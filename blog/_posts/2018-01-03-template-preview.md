@@ -1,11 +1,12 @@
 ---
 layout: post
+
 title: An Awesome Title Goes Here
 author: Emily Gorey
 
 preview_img: square-preview.jpg
 
-excerpt: Here's where your text will go! You can do <strong>bold</strong> text. You can also do <em>italics</em>. The kangaroo is a marsupial from the family Macropodidae (macropods, meaning "large foot")...
+excerpt: This a short version of the full text that will be shown before viewers click to see full post. Here's where your text will go! You can do <strong>bold</strong> text. You can also do <em>italics</em>. The kangaroo is a marsupial...
 
 optional_top_banner_img: optional_top_banner.jpg
 

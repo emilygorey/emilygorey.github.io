@@ -60,7 +60,19 @@ Created by [ng-david](https://github.com/ng-david)
 
 ### Update Portfolio
 
-TODO: make portfolio have a separate image folder
+1. Open `/portfolio/index.html`
+
+2. Note that this portfolio is organized by 3 columns, labeled by `<!-- COLUMN 1 -->`, `<!-- COLUMN 2 -->`, and `<!-- COLUMN 3 -->`
+
+3. Adding new img html tags on the top of each column will list them at the top of the website. Adding new img html tags at the bottom of each column will do the opposite.
+
+4. To add a new image, add your image file to `/portfolio/img` and follow this template to add new code to one of the three columns in `/portfolio/index.html`
+
+```
+<a href="#" data-featherlight="/portfolio/img/<YOUR_IMAGE_NAME>.jpg">
+  <img src="/portfolio/img/<YOUR_IMAGE_NAME>.jpg" alt="">
+</a>
+```
 
 ---
 
@@ -68,13 +80,22 @@ TODO: make portfolio have a separate image folder
 
 1. Create a new file in the directory `/blog/_posts/<FILENAME>`. The new file must be named in this standard format: `2016-07-26-name-of-your-post.md`
 
+2. Add a square shaped preview image and any other images you may want into `/blog/img/`
+
 3. Copy paste the template file's contents (`/blog/_posts/blog/_posts/TEMPLATE.md`) into your new blog post file.
 
-4. Replace the contents with your new post's contents.
+4. Edit the text that follows `title:`, `author:`, `preview_img` (with the name of the square preview image you added before), and `excerpt:`
 
-5. Congratulations, you've made a new post!
+5. Optionally edit text after `optional_top_banner_img:` and `optional_bottom_banner_img:` with the names of your banner images
 
-DAVID TODO: Make better instructions for this...
+6. Optionally add a gallery of images at the bottom of your blog post by editing the text that follows `optional_gallery_img_list:`. Ensure your text follows the following format:
+```
+['my_first_image.jpg', 'my_second_image.jpg', 'my_third_image.jpg', 'etc...']
+```
+
+7. Edit the body of your blog post by putting text under `<!-- BELOW HERE IS WHERE YOUR POST'S BODY WILL GO -->`. Wrap headings in h2 tags as shown in the template example. Leave lines between paragraphs to make them separate paragraphs.
+
+8. Congratulations you have made a new post.
 
 ---
 
