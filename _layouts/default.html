@@ -2,8 +2,12 @@
 <html lang="en">
   {% include _head.html %}
   <body>
-    {% include _navbar.html %}
-    {{ content }}
+    <article class="navbar-wrapper">
+      {% include _navbar.html %}
+    </article>
+    <article class="content-wrapper">
+      {{ content }}
+    </article>
     {% include _footer.html %}
     {% include _scripts.html %}
   </body>
