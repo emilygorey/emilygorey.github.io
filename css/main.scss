@@ -65,6 +65,11 @@ article.content-wrapper {
   overflow-y: auto;
   width: 70%;
   height: 100vh;
+  padding-right: $color-bar-width;
+}
+
+.sub-page {
+  padding: 8rem 0rem;
 }
 
 article.home {
@@ -72,4 +77,45 @@ article.home {
   background-size: cover;
   height: 100%;
   background-position: right bottom;
+}
+
+article.about {
+  @extend .sub-page;
+  div.left {
+    overflow: hidden;
+    img {
+      max-width: 100%;
+    }
+  }
+  div.right {
+    h1, p {
+      margin-bottom: 2rem;
+    }
+  }
+}
+
+article.blog {
+  @extend .sub-page;
+  section.post {
+    margin-bottom: 4rem;
+    .left {
+      img {
+        max-width: 100%;
+      }
+    }
+    .right {
+      h1, p {
+        margin-bottom: 2rem;
+      }
+    }
+  }
+}
+
+$google-drive-bg-color: #d1d1d1;
+article.resume {
+  @extend .sub-page;
+  height: 100%;
+  iframe {
+    border: 2px solid $google-drive-bg-color;
+  }
 }
