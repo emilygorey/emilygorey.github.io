@@ -1,5 +1,13 @@
 # Emily's Personal Website
 
+Written by [ng-david](https://github.com/ng-david)
+
+## Updating Website Colors
+
+1. Open `/_sass/_variables.scss`
+
+2. Edit the hex color values for `$brand-color` and `$brand-color-dark`
+
 ## Updating Home Image
 
 1. Put your new image in the folder `/img/`
@@ -9,12 +17,6 @@
 3. Between the curly braces ({}) that follow, there should be a line that says `background-image: url('/img/<arbitrary_image_name>.jpg');`
 
 4. Replace the `<arbitrary_image_name>.jpg` with the name of your new image.
-
-## Updating Website Colors
-
-1. Open `/_sass/_variables.scss`
-
-2. Edit the hex color values for `$brand-color` and `$brand-color-dark`
 
 ## Updating About
 
