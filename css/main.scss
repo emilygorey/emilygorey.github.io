@@ -46,11 +46,17 @@ article.nav {
       margin-top: 16rem;
       h1 {
         margin-bottom: 1rem;
+        padding-bottom: 2rem;
+        transition: ease all .5s;
+        border-bottom: 2px dashed $font-grey;
         a {
           text-transform: uppercase;
           font-weight: bold;
           color: black;
           text-decoration: none;
+          &:hover {
+            color: $brand-color-dark;
+          }
         }
       }
       h4 {
@@ -178,12 +184,19 @@ article.contact {
 article.blog {
   @extend .sub-page;
   section.post {
+    position: relative;
+    left: 0rem;
+    transition: ease all .3s;
+    &:hover {
+      left: -.5rem;
+    }
     margin-bottom: 8rem;
     .read-more {
       // font-weight: bold;
       color: $brand-color-dark;
     }
     a {
+      left: 0;
       .date {
         font-weight: bold;
         margin-bottom: 2.5rem;
@@ -210,7 +223,7 @@ article.blog {
       }
     }
     a:hover {
-      p {
+      h1, p {
         // color: black;
       }
       .read-more {
@@ -234,5 +247,52 @@ article.resume {
   iframe {
     border: 2px solid $google-drive-bg-color;
     min-height: 50rem;
+  }
+}
+
+article.blog {
+  @extend .sub-page;
+  h2 {
+    font-size: 1.6rem;
+    margin-top: 4rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+  }
+  h3 {
+    color: $font-grey;
+    font-weight: bold;
+    margin-top: 1rem;
+  }
+  .heading {
+    margin-bottom: 8rem;
+  }
+  .banner {
+    width: 100%;
+    margin-top: 4rem;
+  }
+  .content {
+    padding-left: 2rem;
+    border-left: 2px solid $brand-color;
+  }
+  .gallery {
+    // display: flex;
+    // flex-direction: row;
+    // flex-wrap: wrap;
+    // justify-content: space-around;
+    .img-wrapper {
+      // overflow: hidden;
+      justify-content: center;
+      align-items: center;
+      display: flex;
+    }
+    img {
+      // min-height: 100%;
+      max-width: 100%;
+      max-height: 30rem;
+      margin-bottom: 3rem;
+    }
+  }
+  p {
+    margin-bottom: 2rem;
   }
 }

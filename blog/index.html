@@ -5,8 +5,27 @@ blog_active: active
 ---
 <article class="blog">
   <section class="container">
+    {% for post in site.categories.blog %}
+      <section class="post">
+        <a href="{{ post.url }}">
+          <div class="row">
+            <div class="col-md-4 col-sm-6 left">
+              <img src="{{ site.url }}/blog/img/{{ post.preview_img }}" alt="">
+            </div>
+            <div class="col-md-8 col-sm-6 right">
+              <h1>{{ post.title }}</h1>
+              <p class="date">{{ post.date | date_to_string }}</p>
+              <p>
+                {{ post.excerpt }}
+              </p>
+              <p class="read-more">read more <span class="arrow">&rarr;</span></p>
+            </div>
+          </div>
+        </a>
+      </section>
+    {% endfor %}
 
-    <section class="post">
+    <!-- <section class="post">
       <a href="#">
         <div class="row">
           <div class="col-md-4 col-sm-6 left">
@@ -22,8 +41,8 @@ blog_active: active
           </div>
         </div>
       </a>
-    </section>
-
+    </section> -->
+<!--
     <section class="post">
       <a href="#">
         <div class="row">
@@ -112,7 +131,7 @@ blog_active: active
           </div>
         </div>
       </a>
-    </section>
+    </section> -->
 
   </section>
 </article>
