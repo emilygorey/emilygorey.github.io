@@ -65,11 +65,11 @@ article.content-wrapper {
   overflow-y: auto;
   width: 70%;
   height: 100vh;
-  padding-right: $color-bar-width;
 }
 
 .sub-page {
   padding: 8rem 0rem;
+  padding-right: $color-bar-width;
 }
 
 article.home {
