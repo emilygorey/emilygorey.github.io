@@ -25,13 +25,9 @@
               {% endif %}
             </div>
             <div class="gallery">
-              <div class="row">
                 {% for image_url in page.optional_gallery_img_list %}
-                <div class="col-md-4 col-sm-6 img-wrapper">
                   <img src="{{ site.url }}/blog/img/{{ image_url }}" alt="">
-                </div>
                 {% endfor %}
-              </div>
             </div>
 
           </article>
