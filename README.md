@@ -30,13 +30,13 @@ Created by [ng-david](https://github.com/ng-david)
 
 #### Updating Text
 
-2a. Simple update the text under `<!-- CHANGE TEXT HERE -->`
+2. Simple update the text under `<!-- CHANGE TEXT HERE -->`
 
 #### Updating Image
 
-2b. Add your new image to `/img/`
+2. Add your new image to `/img/`
 
-3b. Update the src property of the <img> tag under `<!-- CHANGE PROFILE IMAGE HERE -->` to point to that image
+3. Update the src property of the <img> tag under `<!-- CHANGE PROFILE IMAGE HERE -->` to point to that image
 
 ---
 
