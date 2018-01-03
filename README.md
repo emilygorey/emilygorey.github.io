@@ -2,11 +2,15 @@
 
 Created by [ng-david](https://github.com/ng-david)
 
+---
+
 ### Updating Website Colors
 
 1. Open `/_sass/_variables.scss`
 
 2. Edit the hex color values for `$brand-color` and `$brand-color-dark`
+
+---
 
 ### Updating Home Image
 
@@ -18,9 +22,13 @@ Created by [ng-david](https://github.com/ng-david)
 
 4. Replace the `<arbitrary_image_name>.jpg` with the name of your new image.
 
+---
+
 ### Updating About
 
 1. Edit the text in the file `/about.html`
+
+---
 
 ### Updating Resume
 
@@ -30,9 +38,13 @@ Created by [ng-david](https://github.com/ng-david)
 
 3. Update the <iframe> tag in `/resume.html` with your newly generated one
 
+---
+
 ### Update Portfolio
 
 TODO: make portfolio have a separate image folder
+
+---
 
 ### Writing a New Blog Post
 
@@ -46,6 +58,8 @@ TODO: make portfolio have a separate image folder
 
 DAVID TODO: Make better instructions for this...
 
+---
+
 ### Update Contact Email
 
 1. Open `/contact.html`
@@ -55,6 +69,8 @@ DAVID TODO: Make better instructions for this...
 3. Replace `<arbitrary_email@gmail.com>` with your new email
 
 4. Try sending a test message to yourself
+
+---
 
 ### For Local Development Purposes:
 
