@@ -5,7 +5,7 @@ author: Emily Gorey
 
 preview_img: feb sound.png
 
-excerpt: <em>coming soons</em>
+excerpt: <em>coming soon</em>
 
 optional_top_banner_img: feb sound.png
 
