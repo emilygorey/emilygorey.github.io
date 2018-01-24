@@ -15,6 +15,4 @@ optional_top_banner_img: feb sound.jpg
 
 <h2>February Soundtrack</h2>
 
-DO NOT DELETE THIS FILE. Here is where your text will go! You can do <strong>bold</strong> text. You can also do <em>italics</em>.
-
 <h2>Coming Soon...</h2>
