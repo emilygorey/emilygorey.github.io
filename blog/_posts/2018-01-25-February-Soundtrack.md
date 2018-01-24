@@ -3,11 +3,11 @@ layout: post
 title: February Soundtrack
 author: Emily Gorey
 
-preview_img: square-preview.jpg
+preview_img: feb sound.png
 
 excerpt: <em>coming soons</em>
 
-optional_top_banner_img: feb sound.jpg
+optional_top_banner_img: feb sound.png
 
 ---
 
