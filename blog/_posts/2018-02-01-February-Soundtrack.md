@@ -23,6 +23,6 @@ Since the previous February, I have had the undoubtable luck of falling in love 
 
 A month later, she’d be introduced to a boy in a Neutral Milk Hotel* shirt who would change her life through the introduction of Indian food, cyberpunk films, and Mexico. What a total babe of a person. February 2018 Emily is still obsessed.
 
-<em>*I have a major soft spot for Neutral Milk Hotel. please see final song of playlist performed by the singer of the band, Jeff Mangum</em>
+<em>*I have a major soft spot for Neutral Milk Hotel. Please see final song of playlist performed by the singer of the band, Jeff Mangum</em>
 
 
