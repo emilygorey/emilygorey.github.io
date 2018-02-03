@@ -5,9 +5,11 @@ author: Emily Gorey
 
 preview_img: feb sound.png
 
-excerpt: <em>coming soon</em>
+excerpt: <em>In a wildly precedent and predictable fashion, the February Soundtrack is centered around love. Surprisingly, it’s not too hard to find a song or two on the topic. I set myself up for success with this one.</em>
 
 optional_top_banner_img: header.png
+
+optional_bottom_banner_img: playlist_feb.jpeg
 
 ---
 
@@ -23,4 +25,4 @@ A month later, she’d be introduced to a boy in a Neutral Milk Hotel* shirt who
 
 <em>*I have a major soft spot for Neutral Milk Hotel. please see final song of playlist performed by the singer of the band, Jeff Mangum</em>
 
-optional_bottom_banner_img: playlist_feb.jpeg
+
