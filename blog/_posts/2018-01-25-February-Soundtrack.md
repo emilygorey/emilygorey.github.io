@@ -7,7 +7,7 @@ preview_img: feb sound.png
 
 excerpt: <em>coming soon</em>
 
-optional_top_banner_img: feb sound.png
+optional_top_banner_img: header.png
 
 ---
 
